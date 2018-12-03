@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/register.css" />
+	<body>
+		<div class="header">
+			<div>
+				<img src="img/head-top.png"> 
+				<span>华为商城</span>
+			</div>
+		</div>
+		<div class="zhuce">
+			<div class="nav">
+				<ul>
+					<a href="#"><li>
+						<img src="img/phone.jpg">手机号
+					</li></a>
+					<a href="#"><li class="nav2">
+						<img src="img/emial.jpg">电子邮箱 
+					</li></a>
+					<p>已有华为账户<a href="#">登陆></a></p>
+					
+				</ul>
+			</div>
+			<div class="zhuce-one">
+				<div class="zhuce-two">
+					<form action="register.php" method="post">
+						<span>国家/地区</span><select>
+							<option>中国</option>
+							<option>韩国</option>
+							<option>俄罗斯</option>
+							<option>英国</option>
+							<option>迪拜</option>
+						</select>
+						<span>+86(中国)</span><input type="text" value="请输入手机号" id="tx1" name="uname"/>
+						<p id="s1"></p>
+						
+						<input type="button" value="点击按钮进行验证" id="btn1"/>
+						
+						<span>短信验证码</span><input type="text" value="请输入验证码" id="yz"/>
+						<p id="s2"></p>
+						
+						<span>密码</span><input type="text" value="请输入密码" name="upwd" id="pwd"/>
+						<p id="s3"></p>
+						
+						<span>确认密码</span><input type="text" value="请再次输入密码" id="que"/>
+						<p id="s4"></p>
+						
+						<input type="submit" value="注册" id="btn"/>
+					</form>
+				</div>
+			</div>
+			<hr />
+			<div class="end">
+				<ul>
+					<a href="#"><li>华为帐号用户协议</li></a>
+					<a href="#"><li>关于华为帐号与隐私的声明</li></a>
+					<a href="#"><li>常见问题</li></a>
+				</ul>
+				<br />
+				<p>Copyright © 2011-2018  华为软件技术有限公司  版权所有  保留一切权利  苏B2-20070200号 | 苏ICP备09062682号-9</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/public.js" ></script>
+<script type="text/javascript" src="js/register.js" ></script>

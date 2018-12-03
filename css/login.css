@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.nav {
+  width: 100%;
+  height: 68px;
+  background: #EBEBEB;
+  margin: 0 auto; }
+  .nav div {
+    width: 1066px;
+    height: 68px;
+    margin: 0 auto; }
+    .nav div img {
+      margin-top: -14px;
+      margin-right: 17px; }
+    .nav div span {
+      display: inline-block;
+      color: #333333;
+      font-size: 19px;
+      margin-top: 23px;
+      border-left: 1px solid #d5cecc;
+      padding: 0 20px; }
+
+.nav2 {
+  width: 100%;
+  height: 40px;
+  background: #fffbe4; }
+  .nav2 p {
+    width: 1066px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: #989898;
+    font-size: 12px; }
+
+.banner {
+  width: 100%;
+  height: 592px;
+  background: #081638;
+  background-image: url(../img/登陆banner.png);
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0 auto; }
+  .banner img {
+    width: 100%; }
+  .banner div {
+    width: 381px;
+    height: 531px;
+    background: white;
+    position: absolute;
+    top: 30px;
+    right: 107px; }
+    .banner div span {
+      margin: 26px 0 0 55px;
+      display: inline-block; }
+    .banner div span:hover {
+      color: #bb0707; }
+    .banner div .s1 {
+      color: #bb0707;
+      font-size: 20px;
+      border-right: 1px solid #cccccc;
+      padding-right: 58px; }
+    .banner div .s2 {
+      color: #000000;
+      font-size: 20px; }
+    .banner div form {
+      margin-top: 45px; }
+      .banner div form input {
+        width: 328px;
+        height: 32px;
+        margin-left: 26px;
+        border: none;
+        border-bottom: 1px solid #000000;
+        margin-top: 20px; }
+      .banner div form p {
+        margin: 15px 0 0 26px; }
+      .banner div form #sub {
+        border-radius: 20px;
+        background: #b40707;
+        border-bottom: none;
+        height: 45px; }
+      .banner div form #sub:hover {
+        background: red; }
+    .banner div span {
+      font-size: 12px; }
+    .banner div .a1 {
+      display: inline-block;
+      font-size: 12px;
+      color: blue;
+      margin-left: 173px; }
+    .banner div p {
+      margin: 18px 0 0 141px;
+      font-size: 12px; }
+    .banner div .p1 {
+      color: #999999;
+      margin-top: 78px;
+      margin-left: 153px; }
+    .banner div .p2 {
+      margin: 15px 0 0 100px; }
+      .banner div .p2 i {
+        font-size: 40px;
+        padding: 10px; }
+      .banner div .p2 i:hover {
+        color: #00B5E2; }
+
+.end {
+  width: 961px;
+  height: 106px;
+  margin: 0 auto; }
+
+.end ul {
+  width: 961px;
+  height: 55px;
+  margin-left: 260px;
+  margin-top: 35px; }
+
+.end li {
+  float: left;
+  padding: 20px; }
+
+.end a {
+  color: #999999;
+  font-size: 12px; }
+
+.end p {
+  margin-left: 173px;
+  color: #999999;
+  font-size: 12px; }
+
+/*# sourceMappingURL=login.css.map */
