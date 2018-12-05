@@ -27,9 +27,9 @@
 					扫码登陆
 				</span></a>
 			
-				<form>
-					<input type="text" name="uname" value="手机号/邮件地址/华为号"/><br />
-					<input type="text" name="upwd" value="密码"/>
+				<form action="login.php" method="post">
+					<input type="text" name="uname" value="手机号/邮件地址/华为号" id="uname"/><br />
+					<input type="text" name="upwd" value="密码" id="pwd"/>
 				<a href="#"><p>
 					<i class="iconfont">&#xe809;</i>
 					短信验证码登陆
@@ -64,3 +64,6 @@
 			</div>
 	</body>
 </html>
+<script type="text/javascript" src="js/public.js" ></script>
+<script type="text/javascript" src="js/jquery-1.11.1.js" ></script>
+<script type="text/javascript" src="js/login.js" ></script>

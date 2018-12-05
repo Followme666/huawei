@@ -594,14 +594,14 @@
 	    transition-timing-function: linear;
 	    transition-delay: 0s;*/
 	}
-	.main li:hover{
+	/*.main li:hover{
 			box-shadow: 10px 10px 20px 20px red inset,
 						-10px -10px 20px 20px red inset
 			;
 		    
 		   
 		
-	}
+	}*/
 	.main img{
 		border-radius: 20px 20px 0 0;
 	}

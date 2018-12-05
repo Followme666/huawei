@@ -8,13 +8,21 @@ header("content-type:text/html;charset=utf-8");
 	//选择数据库
 	mysql_select_db("db1819",$db);
 	mysql_query("set names utf8");
-	//编写
-	$sql = "insert into user(`uname`,`upwd`) values('$username','$userpwd')";
-	//执行
-	$row = mysql_query($sql);
-	if($row){
-		echo "<script>alert('注册成功');location.href='login.html';</script>";
+	$sql = "select * from user where uname='$username'";
+	$res = mysql_query($sql);
+	$arr = mysql_fetch_array($res);
+	if($arr){
+		echo "<script>alert('该用户已存在');location.href='register.html';</script>";
 	}else{
-		echo "<script>alert('注册失败');location.href='register.html';</script>";
+		//编写
+		$sql = "insert into user(`uname`,`upwd`) values('$username','$userpwd')";
+		//执行
+		$row = mysql_query($sql);
+		if($row){
+			echo "<script>alert('注册成功');location.href='login.html';</script>";
+		}else{
+			echo "<script>alert('注册失败');location.href='register.html';</script>";
+		}
+		
 	}
 ?>

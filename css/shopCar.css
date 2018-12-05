@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.yi {
+  width: 100%;
+  height: 41px; }
+
+.yiL {
+  margin: 0 auto;
+  width: 1225px;
+  height: 41px; }
+
+.yiL > ul > li {
+  float: left;
+  line-height: 41px; }
+
+.yiL > ul > li > a {
+  color: #d0b7a4;
+  font-size: 12px;
+  border-right: 1px solid #e3c3ac;
+  padding: 0 8px; }
+
+.yiL .yiR {
+  float: right; }
+
+.yi a:hover {
+  color: red; }
+
+.nav {
+  width: 1225px;
+  margin: 18px auto; }
+  .nav .imgL {
+    width: 94px;
+    height: 22px;
+    margin-top: -10px; }
+  .nav span {
+    font-size: 28px;
+    margin-left: 26px; }
+  .nav .imgR {
+    float: right; }
+
+.shopcar {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: hotpink; }
+  .shopcar .shopcar-one {
+    width: 1225px;
+    height: 100%;
+    margin: 0 auto;
+    background: #007DFF; }
+    .shopcar .shopcar-one .shopcar-one1 {
+      width: 1225px;
+      height: 52px;
+      background: #fffdee;
+      margin-top: 13px;
+      border: 1px solid #eace85;
+      line-height: 52px; }
+      .shopcar .shopcar-one .shopcar-one1 span {
+        color: #ca141d;
+        font-size: 12px;
+        margin-left: 13px; }
+      .shopcar .shopcar-one .shopcar-one1 input {
+        width: 70px;
+        height: 30px;
+        background: #ca141d;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        border: none;
+        border-radius: 10px; }
+
+/*# sourceMappingURL=shopCar.css.map */

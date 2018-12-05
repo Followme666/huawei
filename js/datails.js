@@ -1,3 +1,27 @@
+	//固定栏
+	$(".ding i").mouseenter(function(){
+		$(this).css("color","#000000")
+		$(this).next().css("display","block")
+	})
+	$(".ding i").mouseleave(function(){
+		$(this).css("color","")
+		$(this).next().css("display","none")
+	})
+	$(".ding i").eq(3).click(function(){
+		$("html,body").animate({scrollTop:0},1000);
+	})
+	//第一个下拉菜单
+	
+	$(".yiR li:has(div)").mouseenter(function(e){
+		e.stopPropagation();
+		$(this).children("div").stop().slideDown(800);
+		$(this).css("background","white")
+	})
+	$(".yiR li:has(div)").mouseleave(function(e){
+		e.stopPropagation();
+		$(this).children("div").stop().slideUp(500);
+		$(this).css("background","")
+	})
 	//标题栏固定
 	$(function(){
 		var nav = $(".nav-two");
@@ -23,13 +47,13 @@
 	
 	$("#small").on({
 		"mouseover":function(){
-			$("#big").fadeIn();
-			$("#mask").fadeIn();
+			$("#big").stop().fadeIn();
+			$("#mask").stop().fadeIn();
 			
 		},
 		"mouseout":function(){
-			$("#big").fadeOut();
-			$("#mask").fadeOut();
+			$("#big").stop().fadeOut();
+			$("#mask").stop().fadeOut();
 		},
 		"mousemove":function(evt){
 			var e = evt || event;
@@ -55,4 +79,10 @@
 				"top":bigImageY + "px"
 			})
 		}
+	})
+	$("#add1").click(function(){
+		$("#shopAdd").show();
+	})
+	$("span").click(function(){
+		$("#shopAdd").hide();
 	})

@@ -64,3 +64,17 @@
 		}
 	}
 	
+	$id("tx1").onfocus = function(){
+			$id("tx1").value="";
+		}
+	$id("pwd").onfocus = function(){
+			$id("pwd").value="";
+		}
+	$id("que").onfocus = function(){
+			$id("que").value="";
+		}
+	$id("yz").onfocus = function(){
+			$id("yz").value="";
+		}
+	
+	
