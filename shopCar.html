@@ -6,6 +6,7 @@
 	</head>
 	<link rel="stylesheet" href="css/shopCar.css" />
 	<link rel="stylesheet" href="font_mqqyyq3e5/iconfont.css" />
+	<link rel="stylesheet" href="font_y14fnox7x2/iconfont.css" />
 	<body>
 		<div class="yi">
 			<div class="yiL">
@@ -38,9 +39,275 @@
 					<span><i class="iconfont">&#xe62b;</i>
 						您还没有登录！登录后可查看之前加入的商品
 					</span> 
-					 <input type="submit" value="登陆"/>
+					 <a href="login.html"><input type="submit" value="登陆"/></a>
+				</div>
+				<div class="shopcar-one2">
+					<input type="checkbox" />全选
+					<span class="s1">商品</span>
+					<span>单价</span>
+					<span>数量</span>
+					<span>小计</span>
+					<span>操作</span>
+				</div>
+				<div class="shopcar-one3">
+					<div class="shopcar-one4">
+						<!--<input type="checkbox" />
+						<img src="img/78_78_1539244238246mp.png">
+						<a href="#">
+							荣耀10青春版 幻彩渐变 2400万AI自拍 6.21英寸高屏占比珍珠屏 
+						</a>
+						<span>￥1399.00</span>
+						<span class="s2">
+							<p>
+								<a href="#">+</a>
+								<a href="#">-</a>
+							</p>
+						</span>
+						<span>￥1399.00</span>
+						<span><a href="#">删除</a></span>-->
+					<div class="shop-item clearfix">
+					<p class="fl"><input type="checkbox" class="ck"/></p>
+					<img class="fl" src="img/78_78_1539244238246mp.png">
+					<p class="fl">荣耀10青春版</p>
+					<span class="fl">￥1399.00</span>
+					<p class="fl count" '+
+						'data-id="'+ shopinfo.id +'" '+
+						'data-price="'+ shopinfo.price +'" data-count="'+ shopinfo.count +'"'+
+						'data-name="'+ shopinfo.name +'" data-src="'+ shopinfo.src +'"'+
+						'>
+						<span class="updateCount" data-number="1">+</span>
+						<span class="shop-count">1</span>
+						<span class="updateCount" data-number="-1">-</span>
+					</p>
+					<em class="fl sumPrice">￥1399.00</em>
+					<i class="fl delBtn">删除</i>
+				</div>
+					</div>
 				</div>
 			</div>
+		</div>
+		<div class="jiesuan">
+			<input type="checkbox" id="btn2"/>全选
+			<a href="#">删除</a>
+			<input type="submit" id="sub1" value="立即结算"/>
+			<p>总计 <span>￥ 1399.00</span></p>
+			<div>已购1件商品  优惠0.00</div>
+		</div>
+		<!--over-->
+		<div class="over">
+			<div class="over-one">
+				<ul>
+					<a href="#"><li>
+						<img src="img/y4.jpg"/>
+						<span>百强企业 品质保证</span>
+					</li></a>
+					<a href="#"><li>
+						<img src="img/y3.jpg"/>
+						<span>7天退货 15天换货</span>
+					</li></a>
+					<a href="#"><li>
+						<img src="img/y1.jpg"/>
+						<span>48元起免运费</span>
+					</li></a>
+					<a href="#"><li>
+						<img src="img/y2.jpg"/>
+						<span>1000家维修网点 全国联保</span>
+					</li></a>
+				</ul>
+			</div>
+			<div class="over-two">
+				<ul>
+					<li class="over-two1">
+						购物相关
+					</li>
+					<a href="#">
+						<li>购物指南</li>
+					</a>
+					<a href="#">
+						<li>配送方式</li>
+					</a>
+					<a href="#">
+						<li>支付方式</li>
+					</a>
+					<a href="#">
+						<li>常见问题</li>
+					</a>
+				</ul>
+				<ul>
+					<li class="over-two1">
+						保修与退换货
+					</li>
+					<a href="#">
+						<li>保修政策</li>
+					</a>
+					<a href="#">
+						<li>退换货政策</li>
+					</a>
+					<a href="#">
+						<li>退换货流程</li>
+					</a>
+					<a href="#">
+						<li>保修状态查询</li>
+					</a>
+					<a href="#">
+						<li>配件防伪查询</li>
+					</a>
+				</ul>
+				<ul>
+					<li class="over-two1">
+						维修与技术支持
+					</li>
+					<a href="#">
+						<li>售后网点</li>
+					</a>
+					<a href="#">
+						<li>预约维修</li>
+					</a>
+					<a href="#">
+						<li>手机维修</li>
+					</a>
+					<a href="#">
+						<li>备件价格查询</li>
+					</a>
+					<a href="#">
+						<li>上门服务</li>
+					</a>
+				</ul>
+				<ul>
+					<li class="over-two1">
+						特色服务
+					</li>
+					<a href="#">
+						<li>防伪查询</li>
+					</a>
+					<a href="#">
+						<li>补够保障</li>
+					</a>
+					<a href="#">
+						<li>以旧换新</li>
+					</a>
+					<a href="#">
+						<li>礼品包装</li>
+					</a>
+				</ul>
+				<ul>
+					<li class="over-two1">
+						关于我们
+					</li>
+					<a href="#">
+						<li>公司介绍</li>
+					</a>
+					<a href="#">
+						<li>华为商城简介</li>
+					</a>
+					<a href="#">
+						<li>华为线下门店</li>
+					</a>
+					<a href="#">
+						<li>荣耀线下门店</li>
+					</a>
+					<a href="#">
+						<li>诚征英才</li>
+					</a>
+					<a href="#">
+						<li>意见反馈</li>
+					</a>
+				</ul>
+				<ul>
+					<li class="over-two1">
+						友情链接
+					</li>
+					<a href="#">
+						<li>华为集团</li>
+					</a>
+					<a href="#">
+						<li>华为CBG官网</li>
+					</a>
+					<a href="#">
+						<li>荣耀官网</li>
+					</a>
+					<a href="#">
+						<li>花粉俱乐部</li>
+					</a>
+					<a href="#">
+						<li>网站地图</li>
+					</a>
+				</ul>
+				<div class="over-the">
+				<div class="over-the1">
+					400-088-6888
+				</div>
+				<p class="over-the2">7×24小时客服热线	(仅收市话费)</p>
+				<div class="over-the3">
+					<a href="#"><i class="iconfont">&#xe61f;</i>在线客服
+				</div></a>
+				<p class="over-the4">
+					关注Vmall：<a href="#" class="ma2"><i class="iconfont">&#xe660;</i></a>
+					<a href="#"><i class="iconfont">&#xe892;</i></a>
+					<a href="#"><i class="iconfont">&#xe608;</i></a>
+					<a href="#"><i class="iconfont">&#xe82e;</i></a>
+					
+				</p>
+				<div class="ma">
+						<img src="img/20181029165608251.png" />
+					</div>
+			</div>
+			</div>
+			
+		</div>
+		<!--end-->
+		<div class="end">
+			<div class="end-one">
+				<img src="img/HBHfAUYHLA0u5qMS8Nkr.png"/>
+				<ul>
+					<a href="#">
+						<li class="lis1">华为集团</li>
+					</a>
+					<a href="#">
+						<li>华为CBG官网</li>
+					</a>
+					<a href="#">
+						<li>荣耀官网</li>
+					</a>
+					<a href="#">
+						<li>花粉俱乐部</li>
+					</a>
+					<a href="#">
+						<li>华为应用市场</li>
+					</a>
+					<a href="#">
+						<li>EMUI</li>
+					</a>
+					<a href="#">
+						<li>开发者联盟</li>
+					</a>
+					<a href="#">
+						<li>华为商城手机版</li>
+					</a>
+					<a href="#">
+						<li class="lis">网站地图</li>
+					</a>
+					<p>
+					<a href="#">隐私声明 </a>
+					<a href="#">服务协议 </a>Copyright © 2012-2018
+					 华为软件技术有限公司 版权所有 保留一切权利
+				</p>
+				<p>
+					公安备案  <a href="#">苏公网安备32011402010009号</a> | 
+					<a href="#">苏ICP备17040376号-6</a>
+				</p>
+				<p>
+					增值电信业务经营许可证：苏B2-20130048号| 
+					<a href="#">网络文化经营许可证：苏网文[2015] 1599-026号</a>
+				</p>
+				</ul>
+				<div class="end-two">
+					<a href="#"><img src="img/20160226162415360.png" /></a>
+					<a href="#"><img src="img/20160226162521265.png"></a>
+					<a href="#"><img src="img/20180522101715775.jpg"></a>
+				</div>
+			</div>
+			
 		</div>
 		
 		
